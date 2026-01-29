@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 503c397ddf0c1de48bdeac84bdfdf754, type: 3}
+  m_Name: DroneData
+  m_EditorClassIdentifier: 
+  followDistance: 4
+  heightOffset: 2
+  horizontalOffset: 1.5
+  moveSpeed: 3
+  rotationSpeed: 4
+  maxSpeed: 5.1
+  obstacleCheckRadius: 0.8
+  obstacleAvoidanceForce: 5
+  lookAheadDistance: 3
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 128
+  sampleDirections: 8
+  sampleDistance: 4
+  safetyMargin: 1.5
+  positionSmoothTime: 0.2
+  velocitySmoothTime: 0.15
+  maxAcceleration: 8
+  idleThreshold: 0.05
+  alertDistance: 1.5
+  stuckTimeThreshold: 5
+  minFollowDistance: 3
+  maxFollowDistance: 6

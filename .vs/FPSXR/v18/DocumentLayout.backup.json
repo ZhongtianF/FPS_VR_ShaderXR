@@ -1,0 +1,379 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Unity Project\\VR\\FPSXR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|f:\\unity project\\vr\\fpsxr\\assets\\scripts\\equip\\equipmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\equip\\equipmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|F:\\Unity Project\\VR\\FPSXR\\assets\\scripts\\animation\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animation\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|f:\\unity project\\vr\\fpsxr\\assets\\scripts\\other\\smoothfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\other\\smoothfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|F:\\Unity Project\\VR\\FPSXR\\assets\\survivalist\\starterassets\\thirdpersoncontroller\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|solutionrelative:assets\\survivalist\\starterassets\\thirdpersoncontroller\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Unity Project\\VR\\FPSXR\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@3.1.2\\Runtime\\Interaction\\Interactables\\XRGrabInteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.interaction.toolkit@3.1.2\\Runtime\\Interaction\\Interactables\\XRGrabInteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|F:\\Unity Project\\VR\\FPSXR\\assets\\survivalist\\starterassets\\thirdpersoncontroller\\scripts\\basicrigidbodypush.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|solutionrelative:assets\\survivalist\\starterassets\\thirdpersoncontroller\\scripts\\basicrigidbodypush.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Visual\\InteractionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Visual\\InteractionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|F:\\Unity Project\\VR\\FPSXR\\assets\\scripts\\animation\\antijitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animation\\antijitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|F:\\Unity Project\\VR\\FPSXR\\assets\\scripts\\animation\\weaponequipsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animation\\weaponequipsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|F:\\Unity Project\\VR\\FPSXR\\assets\\scripts\\visual\\targetoutlinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\visual\\targetoutlinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|F:\\Unity Project\\VR\\FPSXR\\assets\\scripts\\visual\\outlinerenderpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\visual\\outlinerenderpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|F:\\Unity Project\\VR\\FPSXR\\assets\\scripts\\visual\\outlinerendererfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\visual\\outlinerendererfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|F:\\Unity Project\\VR\\FPSXR\\assets\\scripts\\managers\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|F:\\Unity Project\\VR\\FPSXR\\assets\\shaders\\outlineshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\outlineshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|F:\\Unity Project\\VR\\FPSXR\\assets\\shaders\\highlightshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\highlightshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|F:\\Unity Project\\VR\\FPSXR\\assets\\scripts\\animation\\xrbodysimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BEC027-5FBB-3206-C23E-7B6B1728A813}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animation\\xrbodysimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Unity Project\\VR\\FPSXR\\Library\\PackageCache\\com.unity.xr.core-utils@2.4.0\\Runtime\\XROrigin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.core-utils@2.4.0\\Runtime\\XROrigin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8BB48A-BE4D-E068-57B5-7A0F4EBD0AC2}|DroneController.csproj|F:\\Unity Project\\VR\\FPSXR\\assets\\packages\\dronecontroller\\scripts\\controllers\\dronemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8BB48A-BE4D-E068-57B5-7A0F4EBD0AC2}|DroneController.csproj|solutionrelative:assets\\packages\\dronecontroller\\scripts\\controllers\\dronemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\DroneStateManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DroneStateManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\DroneAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DroneAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\DroneVisualFeedbac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DroneVisualFeedbac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\DroneData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DroneData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EquipmentManager.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Equip\\EquipmentManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Equip\\EquipmentManager.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Equip\\EquipmentManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Equip\\EquipmentManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T10:23:33.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmoothFollow.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Other\\SmoothFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Other\\SmoothFollow.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Other\\SmoothFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Other\\SmoothFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:59:16.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Animation\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Animation\\PlayerController.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Animation\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Animation\\PlayerController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBgAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:38:35.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BasicRigidBodyPush.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Survivalist\\StarterAssets\\ThirdPersonController\\Scripts\\BasicRigidBodyPush.cs",
+              "RelativeDocumentMoniker": "Assets\\Survivalist\\StarterAssets\\ThirdPersonController\\Scripts\\BasicRigidBodyPush.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Survivalist\\StarterAssets\\ThirdPersonController\\Scripts\\BasicRigidBodyPush.cs",
+              "RelativeToolTip": "Assets\\Survivalist\\StarterAssets\\ThirdPersonController\\Scripts\\BasicRigidBodyPush.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA0wAIAAAAfAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACySURBVDhPYxgFEHDjxY3/Xqvc/wtO5P1vvdji/40X1/9DpcBg3rm5cD4yGw6sF5v/bz7UAJZoAtIgw8ASUAAyGMpEYYMAI4gACb7P/wxmg4DuXM3/l5OvM4JsKz5cABVFBa6y7gyrgtZA9KCbig7wuYAJSpMNsBoA8gKIBnkBZiOIRmaHrQtBuMQTGGjNhxvBAk1AGhQTYAkoQHY2MhsOQNFotcgcbIPnSjfSo3FEAwYGAA95Yu3hOJS9AAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-01-28T08:38:07.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "XRGrabInteractable.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@3.1.2\\Runtime\\Interaction\\Interactables\\XRGrabInteractable.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@3.1.2\\Runtime\\Interaction\\Interactables\\XRGrabInteractable.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@3.1.2\\Runtime\\Interaction\\Interactables\\XRGrabInteractable.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@3.1.2\\Runtime\\Interaction\\Interactables\\XRGrabInteractable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T08:57:11.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "XROrigin.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Library\\PackageCache\\com.unity.xr.core-utils@2.4.0\\Runtime\\XROrigin.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.core-utils@2.4.0\\Runtime\\XROrigin.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Library\\PackageCache\\com.unity.xr.core-utils@2.4.0\\Runtime\\XROrigin.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.core-utils@2.4.0\\Runtime\\XROrigin.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T08:10:29.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InteractionController.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Visual\\InteractionController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Visual\\InteractionController.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Visual\\InteractionController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Visual\\InteractionController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAJ4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:35:40.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThirdPersonController.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Survivalist\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
+              "RelativeDocumentMoniker": "Assets\\Survivalist\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Survivalist\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
+              "RelativeToolTip": "Assets\\Survivalist\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAADgv04AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:38:07.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AntiJitter.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Animation\\AntiJitter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Animation\\AntiJitter.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Animation\\AntiJitter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Animation\\AntiJitter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:38:07.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DroneStateManager.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\DroneStateManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DroneStateManager.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\DroneStateManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DroneStateManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:38:07.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DroneAI.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\DroneAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DroneAI.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\DroneAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DroneAI.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADgvyQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:38:07.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DroneVisualFeedbac.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\DroneVisualFeedbac.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DroneVisualFeedbac.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\DroneVisualFeedbac.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DroneVisualFeedbac.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAA5wFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:38:07.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DroneData.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\DroneData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DroneData.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\DroneData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DroneData.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAUwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:38:07.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TargetOutlineController.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Visual\\TargetOutlineController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Visual\\TargetOutlineController.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Visual\\TargetOutlineController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Visual\\TargetOutlineController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:38:07.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OutlineRenderPass.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Visual\\OutlineRenderPass.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Visual\\OutlineRenderPass.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Visual\\OutlineRenderPass.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Visual\\OutlineRenderPass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:38:07.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OutlineRendererFeature.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Visual\\OutlineRendererFeature.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Visual\\OutlineRendererFeature.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Visual\\OutlineRendererFeature.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Visual\\OutlineRendererFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:38:07.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeaponEquipSystem.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Animation\\WeaponEquipSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Animation\\WeaponEquipSystem.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Animation\\WeaponEquipSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Animation\\WeaponEquipSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:38:07.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SceneManager.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Managers\\SceneManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\SceneManager.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Managers\\SceneManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\SceneManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:38:07.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OutlineShader.shader",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Shaders\\OutlineShader.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\OutlineShader.shader",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Shaders\\OutlineShader.shader",
+              "RelativeToolTip": "Assets\\Shaders\\OutlineShader.shader",
+              "ViewState": "AgIAANkAAAAAAAAAAAAxwPsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-01-28T08:38:07.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HighlightShader.shader",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Shaders\\HighlightShader.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\HighlightShader.shader",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Shaders\\HighlightShader.shader",
+              "RelativeToolTip": "Assets\\Shaders\\HighlightShader.shader",
+              "ViewState": "AgIAAAsBAAAAAAAAAAAxwB4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-01-28T08:38:07.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "XRBodySimulator.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Animation\\XRBodySimulator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Animation\\XRBodySimulator.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Scripts\\Animation\\XRBodySimulator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Animation\\XRBodySimulator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:38:07.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DroneMovement.cs",
+              "DocumentMoniker": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Packages\\DroneController\\Scripts\\Controllers\\DroneMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Packages\\DroneController\\Scripts\\Controllers\\DroneMovement.cs",
+              "ToolTip": "F:\\Unity Project\\VR\\FPSXR\\Assets\\Packages\\DroneController\\Scripts\\Controllers\\DroneMovement.cs",
+              "RelativeToolTip": "Assets\\Packages\\DroneController\\Scripts\\Controllers\\DroneMovement.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAlwGAAAAALAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACySURBVDhPYxgFEHDjxY3/Xqvc/wtO5P1vvdji/40X1/9DpcBg3rm5cD4yGw6sF5v/bz7UAJZoAtIgw8ASUAAyGMpEYYMAI4gACb7P/wxmg4DuXM3/l5OvM4JsKz5cABVFBa6y7gyrgtZA9KCbig7wuYAJSpMNsBoA8gKIBnkBZiOIRmaHrQtBuMQTGGjNhxvBAk1AGhQTYAkoQHY2MhsOQNFotcgcbIPnSjfSo3FEAwYGAA95Yu3hOJS9AAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-01-25T11:18:08.394Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
