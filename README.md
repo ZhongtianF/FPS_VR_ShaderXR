@@ -123,3 +123,9 @@ constraints.
 
 A short presentation video demonstrating the final behaviour is available: `presentation_video.mp4`.
 
+### PCVR Build (Windows)
+
+The PCVR version of the project is available for download here:
+https://drive.google.com/file/d/12QTg57EK202RXnuOJ6mAL2azGubor-U3/view?usp=sharing
+
+
