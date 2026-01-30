@@ -120,3 +120,6 @@ constraints.
 ## 🛠️ Unity Version
 - Unity 6000.0.62f1
 
+
+A short presentation video demonstrating the final behaviour is available: `presentation_video.mp4`.
+
