@@ -1,123 +1,122 @@
-# 🚁 TP5 – Drone Control System (Unity)
+# TP5 – Pathfinding Avancé XR (Drone Companion)
 
-## 📌 Project Overview
-This project implements a **physically-based drone control system** in Unity, integrating movement, camera tracking, audio feedback and visual effects into a coherent and modular architecture.
+This Unity project corresponds to **TP5 – Pathfinding Avancé**, in continuity with
+**TP3 (Shaders)** and **TP4 (Animation)**.
 
-The objective of TP5 is to demonstrate the **integration of concepts learned during TP3 and TP4** into a complete, stable and maintainable interactive system.
-
----
-
-## 🎯 Objectives
-- Implement realistic drone movement using Unity physics  
-- Ensure smooth camera follow for user comfort  
-- Provide coherent visual and audio feedback linked to the drone state  
-- Maintain a clean, modular and maintainable code architecture  
+The objective is to implement a **3D local pathfinding behaviour** for a flying
+drone companion in an industrial FPS XR environment, without using NavMesh.
+The drone follows the player while avoiding obstacles and maintaining smooth,
+stable motion suitable for XR.
 
 ---
 
-## 🧩 Project Architecture
-Assets/
- └─ Scripts/
-    ├─ DroneMovement.cs
-    ├─ CameraMovement.cs
-    ├─ PropellerMovement.cs
-    ├─ AudioController.cs
-    └─ SparkCollisionDetection.cs
+## Final Scene
+
+The **final playable scene** used for the TP5 demonstration is located at: Assets/RPG_FPS_game_assets_industrial/Map_v2.unity
 
 
-Each script has a **single responsibility** and is decoupled from the others.
+This scene contains the complete industrial environment, the player, and the
+drone companion with AI behaviour, visual feedback, and animation.
 
 ---
 
-## ⚙️ Core Components
+## Project Structure
 
-### 🛩️ Drone Movement
-**File:** `DroneMovement.cs`
+The repository contains the full Unity project source code:
 
-- Uses `Rigidbody` for physically-based movement
-- Controls thrust, pitch, roll and yaw
-- Applies smooth forces and rotation limits
-- Ensures stable and realistic drone behavior
+- `Assets/`
+  - Drone scripts (AI, state management, data configuration)
+  - Shaders (TP3)
+  - Animations (TP4)
+  - Industrial environment assets
+- `Packages/`
+- `ProjectSettings/`
 
-This script represents the **core logic of the drone system**.
-
----
-
-### 🎥 Camera Follow
-**File:** `CameraMovement.cs`
-
-- Smooth camera tracking using interpolation
-- Vertical offset linked to drone orientation
-- Improves readability and user comfort
-
-Designed to avoid abrupt camera motion.
+Build files (Windows / APK) are not included directly in the repository.
 
 ---
 
-### 🔊 Audio Feedback
-**File:** `AudioController.cs`
+## Drone Architecture Overview
 
-- Audio pitch and volume dynamically adjusted based on drone speed
-- Audio logic fully decoupled from movement logic
+The drone behaviour is implemented using a **modular architecture** composed of
+four main scripts:
 
-Enhances immersion through speed-based sound feedback.
+### 1. DroneAI.cs (Core Pathfinding & Movement)
+This script implements the main drone behaviour:
+- Computation of the ideal direction towards the target (player follow point)
+- Sampling of multiple candidate directions around this direction
+- Obstacle detection using **SphereCast**
+- Scoring and selection of the best valid direction
+- Smooth movement and rotation using interpolation to avoid jitter
 
----
-
-### 🌪️ Visual Feedback – Propellers
-**File:** `PropellerMovement.cs`
-
-- Propeller rotation speed linked to drone velocity
-- Ensures visual coherence with physical behavior
-
-Demonstrates animation control driven by gameplay parameters.
+The approach is **local and reactive**, without any global navigation mesh.
 
 ---
 
-### 💥 Collision Detection
-**File:** `SparkCollisionDetection.cs`
+### 2. DroneData.cs (Configuration & Parameters)
+All navigation parameters are centralized in this script:
+- Movement speed and rotation speed
+- Follow distance and offset
+- Obstacle detection distance and radius
+- Weights used for direction scoring (stability, distance, safety)
 
-- Detects collisions using Unity physics
-- Triggers visual effects through event-based logic
-- No direct dependency on rendering components
-
-Ensures a clean separation between **game logic** and **visual effects**.
-
----
-
-## 🎨 Shaders & Animations (TP3 / TP4 Reuse)
-
-Shaders and animations developed during TP3 and TP4 are reused in this project.
-
-- Animations are driven by gameplay parameters (speed, collision)
-- Visual effects are triggered by events
-- Rendering logic remains independent from control logic
-
-This demonstrates a correct **reuse and integration of previous work**, without mixing responsibilities.
+This separation allows easy tuning of the drone behaviour without modifying
+the AI logic.
 
 ---
 
-## ✅ Technical Choices & Best Practices
-- Modular architecture (single responsibility per script)
-- Event-driven interactions
-- Clear separation between logic, visuals and audio
-- Physically-based movement using Unity `Rigidbody`
-- Maintainable and scalable code structure
+### 3. DroneStateManager.cs (TP4 – Animation State Logic)
+This script manages the logical state of the drone:
+- Idle
+- Moving
+- Alert (obstacle proximity or constrained movement)
+
+The current state is determined from the navigation context and is used to
+drive the Animator transitions in a clean and readable way.
 
 ---
 
-## 🧪 Tested Features
-- Stable drone movement
-- Smooth camera tracking
-- Dynamic audio and animation feedback
-- Collision-triggered visual effects
+### 4. DroneVisualFeedback.cs (TP3 – Shader & Visual Feedback)
+This script handles the visual representation of the drone state:
+- Normal visual state
+- Cautious / alert state when close to obstacles
+
+Shader parameters are updated at runtime using
+`MaterialPropertyBlock`, avoiding material instantiation and ensuring good
+performance.
+
+---
+
+## Pathfinding Principle (TP5)
+
+At each update:
+1. The drone computes the ideal direction towards its follow target.
+2. Several candidate directions are generated around this direction.
+3. Each direction is tested using **SphereCast** to detect obstacles.
+4. Valid directions are evaluated using a scoring system based on:
+   - Distance to target
+   - Movement stability
+   - Safety margin from obstacles
+5. The best direction is selected and applied with smoothing.
+
+This ensures a **fluid, stable, and readable behaviour**, adapted to XR
+constraints.
+
+---
+
+## Integration with Previous TPs
+
+### TP3 – Shaders
+- Visual feedback driven by drone state
+- Shader parameters updated efficiently via `MaterialPropertyBlock`
+
+### TP4 – Animation
+- Animator states controlled by the logical state of the drone
+- Clean separation between navigation logic and animation control
+
 
 ---
 
 ## 🛠️ Unity Version
 - Unity 6000.0.62f1
 
----
-
-## 📎 Notes
-This project focuses on **system integration and code quality**, rather than graphical complexity, in accordance with the objectives of TP5.
